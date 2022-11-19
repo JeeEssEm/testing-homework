@@ -5,7 +5,8 @@
     "start": "nodemon ./src/server/index.ts",
     "test": "jest",
     "build": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "hermione": "hermione test/hermione/example.hermione.js"
   },
   "dependencies": {
     "@bem-react/classname": "^1.5.12",
@@ -44,6 +45,8 @@
     "@types/react-router-dom": "^5.3.1",
     "@types/webpack": "^5.28.0",
     "css-loader": "^6.3.0",
+    "hermione": "^5.4.1",
+    "html-reporter": "^9.4.0",
     "html-webpack-plugin": "^5.3.2",
     "jest": "^27.3.0",
     "mini-css-extract-plugin": "^2.4.2",
